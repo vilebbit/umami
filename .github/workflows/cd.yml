@@ -1,6 +1,7 @@
 name: Create docker images
 
-on: [create]
+on: # [create]
+  workflow_dispatch:
 
 jobs:
   build:
